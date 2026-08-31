@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  prometheus:
+    build: .
+    container_name: prometheus-framework
+    restart: unless-stopped
+    volumes:
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./config:/app/config
+    environment:
+      - PROMETHEUS_ENV=production
+      - PROMETHEUS_CONFIG=/app/config/config.json
+    ports:
+      - "5000:5000"  # API port
+    networks:
+      - prometheus-net
+
+networks:
+  prometheus-net:
+    driver: bridge

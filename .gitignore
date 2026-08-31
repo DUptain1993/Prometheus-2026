@@ -1,0 +1,5 @@
+core/config.json
+core/config.example.json
+.env
+.env.example
+venv/

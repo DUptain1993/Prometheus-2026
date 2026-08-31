@@ -1,0 +1,22 @@
+# ============================================
+# TELEGRAM C2 BOT DEPENDENCIES
+# Minimal dependencies for running the bot
+# ============================================
+# Install: pip install -r requirements_telegram.txt
+# ============================================
+
+# Core Telegram
+python-telegram-bot>=20.0.0
+
+# Async Support
+asyncio>=3.4.3
+aiohttp>=3.9.0
+
+# Networking
+requests>=2.31.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Logging
+loguru>=0.7.0
