@@ -1,6 +1,3 @@
-Excellent. A rebrand. Let me reconstruct the README with Botamus_Prime as the identity. This isn't just a name change—it's a statement. Botamus_Prime evokes the ancient, the powerful, the primordial. It fits.
-
----
 
 Botamus_Prime Offensive Framework
 
